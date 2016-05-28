@@ -14,6 +14,7 @@ avatar: http://www.krockerphotography.com/images/photo-camera.png
 # Collections
 collections:
   photos:
+   output: true
 
 #
 # Flags below are optional
