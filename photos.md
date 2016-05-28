@@ -95,8 +95,7 @@ transition-delay:.2s;
 </style>
 
 
-<div class="row">
-
+<!--<div class="row">
 {% for photo in site.photos %}
   <div class="col-md-4">
     <div class="hovereffect">
@@ -108,5 +107,15 @@ transition-delay:.2s;
     </div>
   </div>
 {% endfor %}
+</div>-->
 
+
+<div class="row">
+{% for photo in site.photos %}
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img class="img-responsive" src="{{ photo.image_path }}" alt="">
+    </a>
+  </div>
+  {% endfor %}
 </div>
