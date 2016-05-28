@@ -10,7 +10,7 @@ permalink: /photography/
         <div class="col-lg-3 col-md-6 text-center">
           <div class="service-box">
             <img src="{{ photo.image_path }}" alt="{{ photo.title }}"/>
-      <h3><a href="{{ photo.url }}">{{ photo.title }}</a></h3>
+            <h3><a href="{{ photo.url }}">{{ photo.title }}</a></h3>
             <p class="text-muted">{{ photo.content }}</p>
           </div>
         </div>
