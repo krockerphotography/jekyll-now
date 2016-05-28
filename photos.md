@@ -97,7 +97,7 @@ transition-delay:.2s;
 
 <div class="row">
 {% for photo in site.photos %}
-<div class="col-md-4">
+  <div class="col-md-4">
     <div class="hovereffect">
         <img class="img-responsive" src="{{ photo.image_path }}" alt="">
         <div class="overlay">
@@ -105,6 +105,5 @@ transition-delay:.2s;
            <a class="info" href="#">link here</a>
         </div>
     </div>
-  {% endfor %}
-</div>
+{% endfor %}
 </div>
