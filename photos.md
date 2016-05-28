@@ -10,7 +10,7 @@ image_path: /images/winter-2016/dsc00112jpg_26258546185_o.jpg
 image_path: /images/winter-2016/dsc00196jpg_26166109572_o.jpg
 image_path: /images/winter-2016/dsc09987jpg_25655864193_o.jpg
 image_path: /images/winter-2016/dsc09990jpg_26258549235_o.jpg
-
+---
 
 
 <ul class="photo-gallery">
