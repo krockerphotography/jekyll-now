@@ -17,4 +17,4 @@ permalink: /photography/
       {% endfor %}
     </div>
   </div>
-</section>
+
