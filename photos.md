@@ -96,6 +96,7 @@ transition-delay:.2s;
 
 
 <div class="row">
+
 {% for photo in site.photos %}
   <div class="col-md-4">
     <div class="hovereffect">
@@ -105,7 +106,7 @@ transition-delay:.2s;
            <a class="info" href="#">link here</a>
         </div>
     </div>
-     </div>
- {% endfor %}
+  </div>
+{% endfor %}
 
 </div>
