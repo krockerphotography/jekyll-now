@@ -4,10 +4,4 @@ title: Photos
 permalink: /photos/
 ---
 
-<ul class="photo-gallery">
-{% for photo in site.photos %}
-     {% if photo.extname == '.jpg' %}
-         <li><img src="{{ site.baseurl }}/_photos/winter-2016/{{ file.url }}" /></li>
-     {% endif %}
-{% endfor %}
-</ul>
+{% for myimage in site.static_files %}{% if myimage.path contains '_photos/winter-2016' %}<p>{{myimage.path}}</p>{% endif %}{% endfor %}
