@@ -1,5 +1,5 @@
 ---
-layout: photo-collection
+layout: default
 title: Photography
 permalink: /photography/
 ---
