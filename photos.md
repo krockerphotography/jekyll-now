@@ -105,6 +105,7 @@ transition-delay:.2s;
            <a class="info" href="#">link here</a>
         </div>
     </div>
+     </div>
  {% endfor %}
- </div>
+
 </div>
