@@ -9,7 +9,7 @@ permalink: /photography/
       {% for photo in site.photos %}
         <div class="col-lg-3 col-md-6 text-center">
           <div class="service-box">
-            <img src="{{ photo.image_path }}" alt="{{ photo.title }}"/>
+            <img class="img-responsive src="{{ photo.image_path }}" alt="{{ photo.title }}"/>
             <h3><a href="{{ photo.url }}">{{ photo.title }}</a></h3>
             <p class="text-muted">{{ photo.content }}</p>
           </div>
