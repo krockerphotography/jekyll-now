@@ -8,5 +8,5 @@ image_path: /images/winter-2016/1.jpg
 <hr>
 
 <div class="row">
-{% for myimage in site.static_files %}<div class="col-lg-3 col-md-4 col-xs-6 thumb">{% if myimage.path contains 'images/winter-2016' %}<img class="img-responsive" src="{{myimage.path}}" style="padding: 5px 5px 5px 5px;">{% endif %}</div>{% endfor %}
+{% for myimage in site.static_files %}<div class="col-lg-3 col-md-4 col-xs-6 thumb">{% if myimage.path contains 'images/winter-2016' %}<img class="img-responsive" src="{{myimage.path}}">{% endif %}</div>{% endfor %}
 </div>
