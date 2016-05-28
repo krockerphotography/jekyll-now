@@ -7,14 +7,13 @@ image_path: /images/winter-2016/1.jpg
 <h1>{{ page.title }}</h1>
 <hr>
 
-
 <div class="row">
 {% for myimage in site.static_files %}
 <div class="col-md-4">
 {% if myimage.path contains 'images/winter-2016' %}<img src="{{myimage.path}}">
         </div>
     </div>
-  
+  {% endif %}
 </div>
 {% endfor %}
 </div>
